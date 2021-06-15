@@ -27,10 +27,10 @@ var isAvailable = false;
 //--------DB Settings------
 
 var config = {
-    user: 'DB_A57E75_chamucolol87_admin',
-    password: 'lomas123',
-    server: 'SQL5053.site4now.net', 
-    database: 'DB_A57E75_chamucolol87' 
+    user: '***',
+    password: '***',
+    server: '***', 
+    database: '***' 
 };
 
 async function InitilizeChromeSettings()
@@ -113,8 +113,8 @@ async function example() {
                     let signInBts = await driver.findElements(webdriver.By.className(singInBtnClass));
                     await signInBts[0].click();
                     await Wait(5000);
-                    await driver.findElement(webdriver.By.name('fld-e')).sendKeys('jose.carbajal.salinas@gmail.com');
-                    await driver.findElement(webdriver.By.name('fld-p1')).sendKeys('QmericA2468', webdriver.Key.ENTER);
+                    await driver.findElement(webdriver.By.name('fld-e')).sendKeys('***');
+                    await driver.findElement(webdriver.By.name('fld-p1')).sendKeys('****', webdriver.Key.ENTER);
                     await Wait(5000);
                 }
                 catch(e){
